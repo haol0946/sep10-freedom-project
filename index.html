@@ -89,6 +89,11 @@ header{
   position: sticky;
   top: 0;
   width: 100%;
+  transition: background-color 0.4s ease-in-out;
+}
+header.scrolled {
+  background-color: white;
+  opacity: 0.98;
 }
 header nav{
  padding; 1.5em 0 1.5em 5em:
@@ -98,6 +103,10 @@ header nav a{
  color:#dfebb6 ;
  font-size: 1.3em;
  margin: 1em;
+ transition: color 0.4s ease-in-out;
+}
+header.scrolled nav a{
+  color: black;
 }
         </style>
 
