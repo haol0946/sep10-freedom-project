@@ -94,10 +94,14 @@ header{
   display: flex;
   align-items: center;
   position: sticky;
-  top: 0
+  top: 0;
   z-index: 1;
 
+
   transition: background-color 0.4s ease-in-out;
+}
+#collapse{
+ background-color: #dfebb6;
 }
 header.scrolled {
   background-color: #dfebb6;
@@ -138,7 +142,7 @@ header.scrolled nav a{
 </h1>
         <div id = home >
         <h1>
-            A brief overview
+            An overview
         </h1>
         <h1 class = "question">
          When was the last time you thought about psychology?
@@ -159,7 +163,7 @@ header.scrolled nav a{
             Present psychology
          </h1>
         </div>
-         <div class="text-center">
+         <div class="text-center"  id = "collapse">
          <p>
             <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle Software </a>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle Software and Hardware </button>
