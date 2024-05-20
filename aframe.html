@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="cap" response-type="arraybuffer" src="https://cdn.glitch.global/4a1d95e4-16c2-43b8-838c-7285c0238edd/cap.glb?v=1716167165789"></a-asset-item>
+          </a-assets>
+            <a-entity gltf-model="#cap" position="0 2 0"></a-entity>
+            <a-camera position="5 4 9" wasd-controls="acceleration:35; fly: true;"></a-camera>
+    </a-scene>
+  </body>
+</html>
